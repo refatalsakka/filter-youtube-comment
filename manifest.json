@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Filter youtube comment section for Abo Falah",
+    "description": "This Chrome extension allows you to customize your YouTube comment section by adding or removing specific words from a list. If a comment in the YouTube comment section contains any of the words in your list, it will be automatically deleted.",
+    "version": "1.0",
+    "icons": {
+        "16": "abo_falaha_16.png",
+        "48": "abo_falaha_48.png",
+        "128": "abo_falaha_128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "abo_falaha_128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/*",
+                "https://www.youtube.com/watch?*"
+            ],
+            "js": [
+                "content_script.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    }
+}

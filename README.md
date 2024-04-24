@@ -23,6 +23,6 @@ Are you tired of irrelevant comments on YouTube? The Abo Flah Comment Filter Chr
 2. In the popup, enter the keywords you wish to filter out from the comments.
 3. Enjoy cleaner YouTube comment sections tailored to your preferences!
 
-## Screenshots
+## Screenshot
 
 ![Extension Interface](https://lh3.googleusercontent.com/Qyk0lmLYqrFVP2BcjdhQesbPH6u3ZPSiC76K8Oy4PO2kQnkcXiuAOldlJGdTVeMYzjbkwj3uoJ2l3tw29UBDx9BvZZI=s1280-w1280-h800)
